@@ -1,26 +1,26 @@
 # Tmux usage
 In tmux, every terminal is called panel
 
-##### split horizontally
+#### split horizontally
 <pre>
 1. press Key <b>ctrl</b> + <b>b</b>
 2. press Key <b>shift</b> + <b>"</b>
 </pre>
 
-##### split vertically
+#### split vertically
 <pre>
 1. press Key <b>ctrl</b> + <b>b</b>
 2. press Key <b>shift</b> + <b>%</b>
 </pre>
 
-##### To move from one pane to another, simply use the prefix followed by the arrow key:
+#### To move from one pane to another, simply use the prefix followed by the arrow key:
 <pre>
 1. press Key <b>ctrl</b> + <b>b</b>
 2. press <b>[arrow key]</b>
 </pre>
 
 
-##### Resizing Panes
+#### Resizing Panes
 Lets say we need a little extra breathing room for one of our panes, and want to expand the pane down a few lines. For this, we will go into the tmux prompt:
 ctrl+b :
 From there we can type resize-pane followed by a direction flag: -U for up, -D for down -L for left and -R for right. The last part is the number of lines to move it over by.
@@ -35,7 +35,7 @@ resize-pane -D 2
 </pre>
 
 
-##### Customize themes
+#### Customize themes
 edit tmux.conf 
 ```
 $ vi ~/tmux.conf
@@ -45,7 +45,7 @@ and then source it with tmux source-file ~/.tmux.conf.
 $ tmux source-file ~/.tmux.conf
 ```
 
-##### list of primary commands
+#### list of primary commands
 1. Start new named session:
 ```$ tmux new -s [session name]```
 
