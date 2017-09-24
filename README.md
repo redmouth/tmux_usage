@@ -8,12 +8,10 @@ In tmux, every terminal is called panel
 ```
 
 ##### split vertically
-```
 <pre>
 1. press Key <b>ctrl</b> + <b>b</b>
 2. press Key <b>shift</b> + <b>%</b>
 </pre>
-```
 
 ##### To move from one pane to another, simply use the prefix followed by the arrow key:
 ```
