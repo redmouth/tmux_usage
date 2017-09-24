@@ -9,7 +9,7 @@ In tmux, every terminal is called panel
 1. press Key **ctrl** + **b**
 2. press Key **shift** + **%**
 
-##### To move from pane to pane, simply use the prefix followed by the arrow key:
+##### To move from one pane to another, simply use the prefix followed by the arrow key:
 1. press Key **ctrl** + **b**
 2. press **[arrow key]**
 
