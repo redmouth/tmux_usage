@@ -34,4 +34,46 @@ resize-pane -D 2
 3. input <b>resize-pane -D 2</b>  will move pane 2 lines down, other flags -U, -L, -R similarly.
 </pre>
 
+
+##### Customize themes
+edit tmux.conf 
+```
+$ vi ~/tmux.conf
+```
+and then source it with tmux source-file ~/.tmux.conf.
+```
+$ tmux source-file ~/.tmux.conf
+```
+
+##### list of primary commands
+1. Start new named session:
+```$ tmux new -s [session name]```
+
+2. Detach from session:
+```$ ctrl+b d```
+
+3. List sessions:
+```$ tmux ls```
+
+4. Attach to named session:
+```$ tmux a -t [name of session]```
+
+5. Kill named session
+```$ tmux kill-session -t [name of session]```
+
+6. split panes horizontally:
+```$ ctrl+b "```
+
+7. Split panes vertically:
+```$ ctrl+b %```
+
+8. Kill current pane:
+```$ ctrl+b x```
+
+9. Move to another pane:
+```$ ctrl+b [arrow key]```
+
+10. Kill tmux server, along with all sessions:
+```$ tmux kill-server```
+
 https://hackernoon.com/a-gentle-introduction-to-tmux-8d784c404340
